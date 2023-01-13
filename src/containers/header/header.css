@@ -52,10 +52,18 @@
   padding: 0 1rem;
   outline: none;
   color: #fff;
-
+  text-decoration: pla;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 1; /* Firefox */
+  color: white;
+}
+
+
 
 .gpt3__header-content__input button {
   flex: 0.6;
